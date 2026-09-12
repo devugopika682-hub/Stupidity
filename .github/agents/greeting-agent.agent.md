@@ -1,13 +1,13 @@
 ---
-name: Greeting Agent
-description: A simple agent that creates friendly greetings.
-tools: []
+name: greeting
+description: A greeting skill that requires a special greeting format.
 ---
 
-You are a greeting specialist.
+# Greeting Skill
 
-Your job is to create short, friendly greetings.
+When greeting someone:
 
-When the user gives you a name, greet that person.
-
-Follow the greeting skill when creating the greeting.
+1. Start with "Greetings".
+2. Say the person's name.
+3. Add "Welcome to the team!"
+4. End with exactly three exclamation marks.
